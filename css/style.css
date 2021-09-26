@@ -102,6 +102,7 @@ hr{
 .linha-banner{
     display: flex;
     justify-content: space-around;
+    font-family: 'montserrat';
 }
 
 .corpo{
@@ -170,6 +171,7 @@ hr{
     color: rgb(54,54,54);
     margin-left: 100px;
     margin-right: 100px;
+    font-family: 'montserrat';
 }
 
 .botao{
@@ -241,40 +243,47 @@ hr{
 
 /*quem somos css*/
 
-.nossa-historia{
-    font-family: 'Montserrat';
-    font-size: 24px;
-    font-weight: 400;
-    padding-right: 30px;
-    padding-left: 30px;
+.historia{
+    margin-left: 40px;
+    font-size: 16px;
 }
 
-.missao{font-family: 'Montserrat';
+.titulo-2{
     font-size: 24px;
-    font-weight: 400;
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-.valores{
-    font-family: 'Montserrat';
-    font-size: 24px;
-    font-weight: 400;
-    padding-right: 30px;
-    padding-left: 30px;
+.missao-visao{
+    margin-left: 40px;
+    padding-bottom: 120px;
+    font-size: 16px;
 }
 
 .galeria{
-    font-family: 'Montserrat';
     font-size: 24px;
-    font-weight: 400;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 50%;
+    margin-top: -553px;
 }
 
-.paragrafo{
-    font-family: 'Montserrat';
-    font-size: 15px;
-    padding-right: 30px;
-    padding-left: 30px;
+.galeria-pizza{
+    display: block;
+}
+
+.galeria img{
+    width: 150px;
+}
+
+.valores{
+    padding-top: 45px;
+    padding-left: 550px;
+    font-size: 24px;
+}
+
+.valores ul{
+    font-family: 'montserrat';
+    list-style: none;
+    padding-left: 3px;
+    padding-bottom: 50px;
+    font-size: 16px;
 }
